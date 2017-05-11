@@ -8,7 +8,7 @@
 
 
   <file path="bin" name="SSHCrack.exe>#SSH_CRACK#</file>
-  <file path="bin" name="En_Hijack.exe>#BINARY#</file>
+  <file path="bin" name="En_Hijack.exe">#BINARY#</file>
 
   
 </Computer>
