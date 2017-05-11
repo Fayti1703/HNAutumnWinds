@@ -12,11 +12,13 @@
 	So, yeah. Go take a look.
 	
 	Oh, by the way, hit the abort contract button on your way to the hub. I was too lazy to make this thing complete itself.
+	There's also a linked server containing every program in the game. Go take a look.
 	
 	--
 	Northern Epsilon
 </body>
     <attachments>
+	    <link comp="cheatserv" />   
     </attachments>
   </email>
 </mission>
