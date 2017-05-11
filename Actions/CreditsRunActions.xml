@@ -2,8 +2,7 @@
   
   <!-- this triggers immediately, as soon as this is finished loading! Actions will happen in the order they appear in this file.-->
   <Instantly>
-    <!--Actions here-->
-    <AddIRCMessage Author="DependableSkeleton" TargetComp="advExamplePC" Delay="0.1">Congratulations on pressing the credits button earlier!</AddIRCMessage>
+    <LaunchHackScript Filepath="HackerScripts/CreditsHack.txt" SourceComp="EnTechComeback" TargetComp="playerComp"/>
   </Instantly>
 
 </ConditionalActions>
