@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="introMission1">
+  <goals>
+    <goal type="filedeletion" target="introTrialnode" file="deleteme.txt" path="home"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  <missionStart val="0">setFaction:rvhs</missionStart>
+  <missionEnd val="1">addFlag:TrialComplete</missionEnd>
+  <nextMission>Missions/Intro/FactionWelcomeMessage.xml</nextMission>
+  <email>
+    <sender>REDACTED</sender>
+    <subject>Initiation</subject>
+    <body>Hello #PLAYERNAME#,
+	
+	This message is to confirm a recent IRC chat, where you were offered and accepted, a position in the Revolution Hacksquad.
+	Before you can officially begin work however, you will need to complete a trial.
+	
+	Linked is a computer you will need to break into. You will have to delete a file in the home folder to complete the trial.
+	Reply when you are done.
+	
+	Also, you might want to arm yourself at the linked asset server.
+	
+	- RVHS Administration
+</body>
+    <attachments>
+      <link comp="introTrialnode" />
+	  <link comp="RVassetserver" />
+      <account comp="RVassetserver" user="#PLAYERNAME#" pass="sabre-143sfq" />
+    </attachments>
+  </email>
+</mission>

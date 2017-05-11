@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="introMission2" activeCheck="true">
+  <goals>
+  <goal type="delay" time="2.5"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>Missions/DEVONLY/Disclaimer.xml</nextMission>
+  <email>
+    <sender>REDACTED</sender>
+    <subject>Re: Initiation</subject>
+    <body>Well, it seems you're done the trial. I'm impressed. Welcome to the team.
+
+Attached is the hub server, and your user account details. Good luck out there.
+
+- RVHS Administration
+</body>
+    <attachments>
+      <link comp="RVFactionHomeNode" />
+      <account comp="RVFactionHomeNode" user="#PLAYERNAME#" pass="sabre-143sfq" />
+    </attachments>
+  </email>
+</mission>

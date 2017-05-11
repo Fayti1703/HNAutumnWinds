@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+  <OnAdminGained target="NSAMainframe" needsMissionComplete="true">
+    <LaunchHackScript Filepath="HackerScripts/NSAHack.txt" SourceComp="NSAProxy" TargetComp="playerComp" RequireLogsOnSource="true" RequireSourceIntact="true"/>
+  </OnAdminGained>
+  
+</ConditionalActions>

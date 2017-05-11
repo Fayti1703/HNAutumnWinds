@@ -1,0 +1,28 @@
+config playerComp NSAProxy 0.2 $#%#$
+delay 15.0 $#%#$
+connect $#%#$
+delay 1.0 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+clearTerminal $#%#$
+writel     ________  ____________   ____  __  ___   __________  __ $#%#$
+writel    / ____/ / / /__  /__  /  / __ )/ / / / | / / ____/ / / / $#%#$
+writel   / /_  / / / /  / /  / /  / __  / / / /  |/ / /   / /_/ /  $#%#$
+writel  / __/ / /_/ /  / /__/ /__/ /_/ / /_/ / /|  / /___/ __  /   $#%#$
+writel /_/    \____/  /____/____/_____/\____/_/ |_/\____/_/ /_/    $#%#$
+writel                                                             $#%#$
+writel ------------------------- HIJACKER ------------------------ $#%#$
+writel  $#%#$
+delay 0.1 $#%#$
+writel  $#%#$
+writel !ALERT! $#%#$
+writel  $#%#$
+stopMusic $#%#$
+delay 1.0 $#%#$
+write THE OWNER OF THIS MACHINE HAS CONDUCTED ACTIVITY ILLEGAL UNDER U.S.C. ACT 1030-18 $#%#$
+write SUCH ACTIVITY IS PUNISHABLE BY UP TO 10 YEARS IN PRISON $#%#$
+write YOU ARE BEING TRACED $#%#$
+write STAY WHERE YOU ARE $#%#$
+delay 2.3 $#%#$
+instanttrace $#%#$
+disconnect $#%#$

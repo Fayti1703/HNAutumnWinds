@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="devdisclaimer" activeCheck="false">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Northern Epsilon</sender>
+    <subject>Incomplete Mod</subject>
+    <body>So uh, as you may know, this mod is unfinished.
+	
+	Currently, the only mission available at the Rev. Hacksquad is the NSA Mission. Currently, there is only a placeholder file in the mainframe that you have to delete.
+	So, yeah. Go take a look.
+	
+	Oh, by the way, hit the abort contract button on your way to the hub. I was too lazy to make this thing complete itself.
+	
+	--
+	Northern Epsilon
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>
