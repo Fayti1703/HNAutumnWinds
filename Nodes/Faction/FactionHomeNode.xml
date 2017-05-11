@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="RVFactionHomeNode" name="Revolution Hacksquad Hub" type="empty" security="4">
+
+  
+  <portsForCrack val="4" />
+  <trace time="200" />
+
+  <account username="#PLAYERNAME#" password="sabre-143sfq" type="3" />
+
+  <!-- group name is purely decorative, no link to faction ID name necessary -->
+  <missionHubServer groupName="Revolution Hacksquad" serviceName="RVHS Listings Hub" missionFolderPath="Missions/RVHS" themeColor="115, 203, 225 ,255" lineColor="64, 64, 64" backgroundColor="5, 6, 7, 165" />
+  
+  
+</Computer>

@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="introTrialnode" name="Revolution Hacksquad Test PC" type="1">
+
+  
+  <portsForCrack val="3" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="75" />
+
+  <file path="home" name="deleteme.txt">The title speaks for itself</file>
+  
+</Computer>

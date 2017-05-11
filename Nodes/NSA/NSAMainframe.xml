@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NSAMainframe" name="NSA Mainframe" type="empty" icon="server" security="5">
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 80, 1433</ports>
+  <trace time="75" />
+  <firewall level="6" additionalTime="1.0"/>
+  <proxy time="4" />
+  <admin type="fast"/>
+  
+  <tracker />
+  
+  <LogoCustomConnectDisplayDaemon logo="Sprites/nsabig.png" title="Sprites/nsatitle.png" overdrawLogo="true" buttonAlignment="right" />
+  
+  <WhitelistAuthenticatorDaemon Remote="NSAWhitelist"/>
+  
+  <DatabaseDaemon Permissions="private" DataType="" Foldername="database" Color="100,100,100" AdminEmailAccount="sysadmin@nsa.gov" AdminEmailHostID="NSAMail" Name="NSA Mainframe Database" />
+  
+  <encryptedFile path="database" name="Placeholder.dec" extension=".zip" ip="192.168.1.1" header="Placeholder" pass="HOWDIDYOUKNOW">
+    what
+  </encryptedFile>
+  
+  <dlink target="NSAWhitelist" />
+  <dlink target="NSANethub" />
+  <dlink target="NSAMail" />
+  
+</Computer>

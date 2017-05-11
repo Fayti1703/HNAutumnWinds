@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NSAHacker" name="NSA Cyber Warfare Workstation 022" type="1" icon="DLCPC1" security="4">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 80, 443</ports>
+  <proxy time="4" />
+  <trace time="50" />
+				
+  <dlink target="NSAProxy" />
+  
+</Computer>

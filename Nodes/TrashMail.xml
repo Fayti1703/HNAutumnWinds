@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trashMail" 
+name="Trash Mail" 
+allowsDefaultBootModule="true"
+ip="146.175.59.98"
+security="3"
+type="1" > 
+
+<adminPass pass="qpunNA789" />
+<ports>80,22,21,25,1433</ports>
+<portsForCrack val="5" />
+
+<account username="papa" password="titouan" type="mail" />
+<account username="maman" password="pastitouan" type="mail" />
+<account username="patron" password="patrondeouf" type="mail" />
+<account username="titouan" password="TITOUANTHEBEST" type="mail" />
+
+<mailServer name="TrashMail Server" color="50,237,212">
+  <email recipient="papa" sender="patron" subject="Travail">
+  Au sein de notre entreprise Couches et co, nous tenons a ce que nos employes puissent travailler 
+  dans des conditions ideales afin d optimiser notre productivite.
+  Ces valeurs sont appuyees et regulees par des regles internes a nos services.
+  Les employes doivent, respecter le plus strictement possible ces regles, y compris vous.
+  Ces derniers jours, les responsables du services ont remarque une certaine absence d investissement et un comportement immature.
+  Sachez qu a Couches et co, nous tenons a respecter notre environnement de travail ainsi que nos employes, 
+  nous vous recommandons donc vivement d adopter un comportement plus adapte ainsi qu eviter 
+  Sachez que votre comportement reprochable risque de vous couter votre poste.
+  En esperant vous avoir aide,
+  
+  Mr.Patron
+</email>
+
+  <email recipient="patron" sender="papa" subject="RE: Travail">
+  Ah ouais? Si vous me virez, je dis a tout le monde que l ip de votre base de donnees est 125.59.234.18, 
+  alors je vous conseille de savoir a qui vous avez affaire. Mon fils Titouan est un genie du hack, 
+  si je lui donne l ip, il va defoncer votre serveur principal.
+  C est pour ca que chez nous, on l appelle TitouHacker. Allez je vous laisse, c est l heure de son chocolat chaud.
+  </email>
+
+  <email recipient="papa" sender="patron" subject="RE: RE: Travail">
+  Sachez monsieur, que vos techniques d intimidation ne fonctionnent pas, notre base de donnees est hautement securisee 
+  et en aucun cas quelqu un pourra s y introduire, pas meme votre fils de 8 ans.
+  Encore un avertissement et c est fini pour vous.
+  Bonne continuation,
+  
+  Mr.Patron
+  </email>
+
+  <email recipient="papa" sender="Titouan" subject="JVE LNOUVEL EPHONE8+S WLH">
+  WSH PAPA TU MLASHETE STP, C POUR LECOL, G PA DAMI. STP, JVAI MTAILLER LES VENE!!!!!!!!!!!!!!!
+  </email>
+  
+  <email recipient="maman" sender="papa" subject="J en ai marre.">
+  Stp tu peux revenir chercher ton fils? J en ai marre de lui... Si tu viens pas le ramener chez toi, je lui dit qu il est adopte. 
+  Il me saoule ce pourri gate, en plus, avec ce qu il fait sur son ordi, la police est bientot chez nous.
+  </email>
+
+</mailServer>
+
+</Computer>

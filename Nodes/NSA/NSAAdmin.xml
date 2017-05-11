@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NSAAdmin" name="NSA_sysadmin Workstation" type="1" ip="98.124.245.24" icon="DLCPC1" security="4">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25, 80, 443</ports>
+  <proxy time="4" />
+  <trace time="55" />
+  
+  <eosDevice name="Nathan's ePhone 4S" id="NSA_admin_eos" icon="ePhone2" empty="false">
+    <mail username="sysadmin@nsa.gov" pass="NSAQSF942" />
+  </eosDevice>
+  
+</Computer>

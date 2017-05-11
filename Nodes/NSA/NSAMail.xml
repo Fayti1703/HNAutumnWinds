@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NSAMail" name="NSA Mail Server" security="5" type="empty" icon="server">
+  
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="6" />
+  <ports>22, 25, 443, 1433</ports>
+  <admin type="progress"/>
+
+  <positionNear target="NSAMainframe" position="90" total="360" extraDistance="0.03"/>
+  
+  <account username="sysadmin" password="NSAQSF942" type="2" />
+  
+  <mailServer name="National Security Agency Mail" color="100,100,100">
+    
+    <!-- NetAdmin Emails -->
+  
+  <email recipient="sysadmin" sender="rblackwood" subject="Re: Security Breach">
+  Well, if SOMEONE approved my request for a high RAM web proxy server, maybe we wouldn't be in this mess.
+  ---
+  Nathan,
+  
+  I've just been sent an alert from your cybersec guys that someone just broke into our public webserver. I need you to figure out what the hell is going on, and push this guy out of the network before he defaces the site,
+  or worse, find his way into the mainframe. We CANNOT afford another leak.
+  
+  Fix it.
+  
+  Admiral John S. Ledgett
+  Director of the National Security Agency
+</email>
+    
+  </mailServer>
+  
+  <dlink target="NSAMainframe" />
+  
+</Computer>

@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NSAProxy" name="NSA Cyber Warfare Proxy 022" type="empty" icon="server" security="4">
+
+  
+  <portsForCrack val="3" />
+  <ports>22, 21, 80, 443</ports>
+  <proxy time="4" />
+  <trace time="-1" />
+				
+  <dlink target="NSAHacker" />
+
+  <positionNear target="NSAHacker" position="180" total="360" extraDistance="0.1"/>
+  
+</Computer>
