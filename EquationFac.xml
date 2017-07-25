@@ -1,0 +1,10 @@
+<CustomFaction name="Equation Group" id="NSA" playerVal="0">
+  <!-- You can change the starting player value with the playerVal field above. -->
+  
+   <RunFunction FunctionName="setHubServer:NSAListingServer" FunctionValue="1" />
+  
+  <RunFunction FunctionName="playCustomSong" FunctionValue="Music/TempDrops.ogg" />
+    
+  <SwitchToTheme ThemePathOrName="Themes/NSA.xml" FlickerInDuration="3.0"/>
+  
+</CustomFaction>

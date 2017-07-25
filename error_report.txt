@@ -1,0 +1,32 @@
+Error loading ExtensionInfo for extension in folder:
+Extensions/AutumnWinds
+Error details: 
+System.Xml.XmlException 
+ 
+Unexpected end of file has occurred. The following elements are not closed:
+HacknetExtension. Line 100, position 20.
+
+ 
+Source : System.Xml 
+ 
+System.Xml.XmlException: Unexpected end of file has occurred. The following
+elements are not closed: HacknetExtension. Line 100, position 20.
+
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e) 
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg) 
+   at System.Xml.XmlTextReaderImpl.ThrowUnclosedElements() 
+   at System.Xml.XmlTextReaderImpl.ParseElementContent() 
+   at System.Xml.XmlTextReaderImpl.Read() 
+   at Hacknet.Extensions.ExtensionInfo.ReadExtensionInfo(String folderpath) 
+   at Hacknet.Screens.ExtensionsMenuScreen.AddExtensionSafe(String folderpath)
+
+ 
+ 
+ 
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e) 
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg) 
+   at System.Xml.XmlTextReaderImpl.ThrowUnclosedElements() 
+   at System.Xml.XmlTextReaderImpl.ParseElementContent() 
+   at System.Xml.XmlTextReaderImpl.Read() 
+   at Hacknet.Extensions.ExtensionInfo.ReadExtensionInfo(String folderpath) 
+   at Hacknet.Screens.ExtensionsMenuScreen.AddExtensionSafe(String folderpath)

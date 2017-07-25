@@ -1,0 +1,15 @@
+<CustomFaction name="Slashbot" id="slashbotfac" playerVal="0">
+  
+  <Action ValueRequired="0">
+ 
+    <AddMissionToHubServer MissionFilepath="Missions/SlashbotArticles/SNNNews1.xml" TargetComp="slashbot" />
+	<AddMissionToHubServer MissionFilepath="Missions/SlashbotArticles/SNNNews2.xml" TargetComp="slashbot" />
+	<AddMissionToHubServer MissionFilepath="Missions/SlashbotArticles/SNNNews3.xml" TargetComp="slashbot" />
+	<AddMissionToHubServer MissionFilepath="Missions/SlashbotArticles/SNNNewsPA22.xml" TargetComp="slashbot" />
+ 
+    <AddMissionToHubServer MissionFilepath="Missions/SlashbotArticles/Announcement.xml" TargetComp="slashbot" AssignmentTag="top"/>
+	
+  </Action>
+  
+	
+</CustomFaction>

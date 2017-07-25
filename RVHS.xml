@@ -1,0 +1,7 @@
+<CustomFaction name="Revolution Hacksquad" id="rvhs" playerVal="0">
+  
+  <Action ValueRequired="1">
+    <RunFunction FunctionName="setHubServer:RVFactionHomeNode" FunctionValue="1" />
+  </Action>
+
+</CustomFaction>
