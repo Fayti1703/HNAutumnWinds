@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="NSAIntro" activeCheck="true">
+  <goals>
+    <goal type="getstring" target="yes"/>
+  </goals>
+  <missionStart val="0">setFaction:NSA</missionStart>
+  <nextMission>Missions/Equation/Intro2.xml</nextMission>
+  <email>
+    <sender>REDACTED</sender>
+    <subject>ENOUGH</subject>
+    <body>#PLAYERNAME#,
+	
+	We are, quite frankly, annoyed as hell by your activities. You know. Related to a certain alphabet soup agency.
+	We will be giving you one chance and ONLY ONE to avoid prosecution.
+	
+	I want you to work for us. Otherwise, we're gonna head over to that hole that you call a home, AND DRAG YOU ALL THE WAY TO GUANTANAMO FUCKING BAY.
+	Reply to this email with the word 'yes' to accept.
+    
+-Red
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

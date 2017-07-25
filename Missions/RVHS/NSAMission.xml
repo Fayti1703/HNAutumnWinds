@@ -1,0 +1,66 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!-- 
+Hacknet mission descriptor file
+
+Note: This format is pretty hacked together, and is a lot clunkier than the computer loader one.
+Not changing this was part of my "No re-writes" policy for Hacknet, so some of the elements are
+very strict about their ordering and case sensitivity. Be careful, and test!
+-->
+
+<!-- 
+id : the mission ID - this isn't used in-code but is sometimes useful in debugging and testing.
+
+activeCheck : if this is set to true, when this mission is active, Hacknet will test for this mission being complete
+              every frame, instead of only when the player responds to an email. This is very useful for creating delays,
+              and for situations where the player is contacted from outside an existing chain.
+              
+shouldIgnoreSenderVerification : This prevents the check to ensure that the player responded to the right sender
+                                 when checking for mission completion.
+-->
+<mission id="NSAMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- All goals added to a mission have to be complete before the mission will complete-->
+    
+    <!-- Task to delete the file on node target, at path/file
+    This entry asks for deletion of home/asdf.txt on machine with ID "missionTestNode"-->
+    <goal type="filedeletion" target="NSAMainframe" file="Placeholder" path="database"/>
+    
+  </goals>
+  
+  <missionStart>playCustomSong:Music/TempDrops.ogg</missionStart>
+
+  <!-- Same as mission start (this is also optional), but this happens when the mission is completed.
+  Note that this will never trigger if the mission is abandoned or otherwise lost.-->
+  <missionEnd val="1">addRank</missionEnd>
+  
+  <nextMission IsSilent="false">Missions/Equation/CounterhackSilent.xml</nextMission>
+
+  <posting title="Delete a Surveillance Profile" >
+Hack into a government agency's mainframe to delete the surveillance profile of a person.
+  </posting>
+  
+  <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
+  <email>
+    <!-- The sender field is very important for branching or silent mission chains. Even if this file you're editing isn't the
+    email on the server the player will be responding to, it will still run it's completion checks as long as the player is responding to
+    any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
+    don't worry about it.-->
+    <sender>REDACTED</sender>
+    <subject>The NSA</subject>
+    <body>This mission's gonna need some explaining.
+	
+	Our client is a anti government surveillance activist who wants the NSA off his back. Yes, the NSA.
+	
+	Now, we would just hack the darn thing open, but it has a whitelist.
+	Your best bet is trying to find a way around the whitelist, by checking out their network. Here is a link to their website and mainframe.
+
+Good luck,
+- RVHS Administration
+    </body>
+	<attachments>
+      <!-- A link takes in the idName of a computer and links to it on the netmap -->
+      <link comp="NSAWebsite" />     
+      <link comp="NSAMainframe" />     
+    </attachments>
+  </email>
+</mission>

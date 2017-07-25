@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="snn4">
+  <goals>
+    <goal type="getstring" target="debug"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="The Pacific Air PA_0022 Incident">
+On March 31st, 2017, Pacific Air Flight PA824 suddenly experienced flight control failure mid-flight, causing critical descent speeds and risk of crash. Control was regained shortly before critical failure and the pilots were able to recover the flight safely.
+Upon thorough inspection of the aircraft upon landing, nothing wrong was discovered with the hardware of the aircraft in any sense, and the software and firmware appeared to be intact.
+A full copy of the software was sent to Psylance Cyber Security to investigate for errors.
+
+A Psylance Representative stated that they had compiled a report on the incident, however, it was tampered with and their backup was corrupted.
+
+We will continue to report on the incident.
+
+Reporter: Tom Wilkins
+  </posting>
+  <email>
+    <sender>Northern Epsilon</sender>
+    <subject>An error has occured</subject>
+    <body>
+If you are reading this, something has gone horribly wrong.
+
+Please Panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

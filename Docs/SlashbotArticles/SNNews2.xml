@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="snn2">
+  <goals>
+    <goal type="getstring" target="debug"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Is your data at risk?">
+Popular social network FriendHole was the latest victim of a Malicious hacking group apparently bent on compromising all forms of social media. The group's identities and location still remain a mystery to Cyber Police, but their message is clear: 'Nothing is Safe'. FaceSpace's CEO attempted today to
+reassure a nervous userbase, explaining that "FaceSpace's security is watertight", and that the only people who will have access to users' personal data on FaceSpace are them, those they choose to share it with, and FaceSpace's 12,000 trusted advertising partners.
+  </posting>
+  <email>
+    <sender>Northern Epsilon</sender>
+    <subject>An error has occured</subject>
+    <body>
+If you are reading this, something has gone horribly wrong.
+
+Please Panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

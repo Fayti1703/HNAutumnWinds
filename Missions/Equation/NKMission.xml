@@ -1,0 +1,69 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!-- 
+Hacknet mission descriptor file
+
+Note: This format is pretty hacked together, and is a lot clunkier than the computer loader one.
+Not changing this was part of my "No re-writes" policy for Hacknet, so some of the elements are
+very strict about their ordering and case sensitivity. Be careful, and test!
+-->
+
+<!-- 
+id : the mission ID - this isn't used in-code but is sometimes useful in debugging and testing.
+
+activeCheck : if this is set to true, when this mission is active, Hacknet will test for this mission being complete
+              every frame, instead of only when the player responds to an email. This is very useful for creating delays,
+              and for situations where the player is contacted from outside an existing chain.
+              
+shouldIgnoreSenderVerification : This prevents the check to ensure that the player responded to the right sender
+                                 when checking for mission completion.
+-->
+<mission id="NKIntranet" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- All goals added to a mission have to be complete before the mission will complete-->
+    
+    <!-- Task to delete the file on node target, at path/file
+    This entry asks for deletion of home/asdf.txt on machine with ID "missionTestNode"-->
+<goal type="fileupload" target="NSAIRC" file="지성.dec" path="home" destTarget="NSADrop" destPath="Drop" decrypt="false"/>
+    
+  </goals>
+  
+  <missionStart val="11">changeSong</missionStart>
+
+  <!-- Same as mission start (this is also optional), but this happens when the mission is completed.
+  Note that this will never trigger if the mission is abandoned or otherwise lost.-->
+  <missionEnd val="1">addRank</missionEnd>
+  
+  <nextMission IsSilent="false">NONE</nextMission>
+
+  <posting title="Gather intel on North Korea" >
+Due to increasing tensions in the Korean Peninsula, we've been tasked with gathering intel on North Korea.
+  </posting>
+  
+  <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
+  <email>
+    <!-- The sender field is very important for branching or silent mission chains. Even if this file you're editing isn't the
+    email on the server the player will be responding to, it will still run it's completion checks as long as the player is responding to
+    any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
+    don't worry about it.-->
+    <sender>mledgett</sender>
+    <subject>North Korea</subject>
+    <body>Agent,
+	
+	As you may know, tensions in the Korean Peninsula are at an all time high. Before any sort of war breaks out (or the Korean armistice ends, the Korean war is technically still raging) we need intel.
+	You will be hacking into their Intranet, to see if you can find anything useful. No need to decrypt or decompress anything, just upload it to the drop server.
+	Their Intranet isn't actually very secure, but traces are ridiculously fast. Linked is a contact of mine who can point you to "Tracekiller" software for your mission.
+	
+	Good luck.
+	--
+	Michael Ledgett
+	Director of the Central Intelligence Agency
+    </body>
+	<attachments>
+      <!-- A link takes in the idName of a computer and links to it on the netmap -->
+      <link comp="NKEntry" />        
+      <link comp="NSADrop" />  
+      <link comp="NSAIRC" />  
+      <account comp="NSAIRC" user="GUEST" pass="hunter2" />
+    </attachments>
+  </email>
+</mission>

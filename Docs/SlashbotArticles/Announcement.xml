@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="snnannoucement">
+  <goals>
+    <goal type="getstring" target="debug"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# We are back up!">
+Recently our server went down due to a missing config file, believed to have been removed by a malicious hacker.
+
+We would like to thank you all for the support while we rebuilt.
+
+-The Slashbot Team</posting>
+  <email>
+    <sender>Northern Epsilon</sender>
+    <subject>An error has occured</subject>
+    <body>
+If you are reading this, something has gone horribly wrong.
+
+Please Panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

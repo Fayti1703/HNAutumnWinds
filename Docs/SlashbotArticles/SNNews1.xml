@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ssn1">
+  <goals>
+    <goal type="getstring" target="debug"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="New Macrosoft Phone: About as bad as you expected">
+It seems Macrosoft just can't catch a break - its new "Waterfall" phone, which our staff were fortunate enough to acquire from an anonymous benefactor, has been found to have some pretty serious security flaws.
+
+Users of the phone can expect the same buggy, last-gen OS they've grown accustomed to from the ubiquitous tech giant, but now with gaping security holes to boot - any installed apps are
+able to easily gain unrestricted control of the phone, and a networking bug could lead to private data being sent unencrypted all over the net.
+
+"Waterfall", Macrosoft's fourth generation phone is expected to launch two weeks from now, but with this discovery, experts say the launch may be delayed by up to a month. Watch this space for any future developments.
+  </posting>
+  <email>
+    <sender>Northern Epsilon</sender>
+    <subject>An error has occured</subject>
+    <body>
+If you are reading this, something has gone horribly wrong.
+
+Please Panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

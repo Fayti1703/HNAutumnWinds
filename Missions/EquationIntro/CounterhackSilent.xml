@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="NSAPrelude" shouldIgnoreSenderVerification="true">
+  <goals>
+    <goal type="getadmin" target="NSAHacker"/>
+  </goals>
+  <nextMission IsSilent="true">Missions/Equation/Intro.xml</nextMission>
+  <posting title="ERROR">
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+    </body>
+    <attachments>      
+    </attachments>
+  </email>
+</mission>

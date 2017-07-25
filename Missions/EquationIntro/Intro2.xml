@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="NSAIntro2" activeCheck="true">
+  <goals>
+    <goal type="getstring" target="yes"/>
+  </goals>
+  <missionStart val="0">setFaction:NSA</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>REDACTED</sender>
+    <subject>Re: Re: ENOUGH</subject>
+    <body>Thank you.
+	
+	You've just been added to the whitelist of all Equation servers.
+	Feel free to pick out any available missions on the listing server.
+    
+-Red
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

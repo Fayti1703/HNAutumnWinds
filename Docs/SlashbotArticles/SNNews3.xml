@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="snn3">
+  <goals>
+    <goal type="getstring" target="debug"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="New Opbol Dongle patent will Tantalize Fanboys">
+Hardcore Opbol fans, get your affairs in order and prepare your wallets.  A new patent filed by Technological golden child Opbol Computing today suggests that the company could be moving into the home console market. The patent, for an extensible "dongle" could be a component in a new gaming system
+experts say - perhaps a controller or motion sensor. As of yet, only the design - a telescoping cylinder with rounded ends - has been granted patent status, but our sources say news on the device's functionality may only be a few days away. Watch this space!
+  </posting>
+  <email>
+    <sender>Northern Epsilon</sender>
+    <subject>An error has occured</subject>
+    <body>
+If you are reading this, something has gone horribly wrong.
+
+Please Panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>
