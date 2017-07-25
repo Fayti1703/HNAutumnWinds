@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="NSAIRC">
+
+    <AddIRCMessage Author="Jackal" TargetComp="NSAIRC" Delay="2.0">So, I hear you need some software for a mission.</AddIRCMessage>
+    <AddIRCMessage Author="Jackal" TargetComp="NSAIRC" Delay="4.0">Hacking into North Korea's Intranet.</AddIRCMessage>
+    <AddIRCMessage Author="Jackal" TargetComp="NSAIRC" Delay="8.0">The 31337 H4xx0r Forums has something called TraceKill for sale.</AddIRCMessage>
+    <AddIRCMessage Author="Jackal" TargetComp="NSAIRC" Delay="10.0">Although, knowing you gov't guys you're probably gonna just steal it.</AddIRCMessage>
+    <AddIRCMessage Author="Jackal" TargetComp="NSAIRC" Delay="15.3">!ATTACHMENT:link#%#31337 H4xx0r Forums#%#208.73.211.70</AddIRCMessage>
+    <AddIRCMessage Author="Jackal" TargetComp="NSAIRC" Delay="18.0">Good luck.</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>
