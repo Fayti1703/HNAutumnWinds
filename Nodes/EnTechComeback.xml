@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechComeback" name="EnTech Security Workstation _004" type="3" security="5" ip="156.151.0.62" >
+<account username="jmiller" password="6T4sg77a" type="0" />
+<admin type="fast" resetPassword="false" isSuper="true"/>
+<ports>80, 22, 1433, 25, 21</ports>
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="En_Hijack.py">#BINARY#</file>
+  <file path="home" name="sorry.txt">You know I can't actually implement exe files into extensions right?</file>
+
+  
+</Computer>

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NSANethub" name="NSA_Network_Hub" security="5" type="4" icon="server">
+
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="61" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 80, 443, 1433</ports>
+  <admin type="progress"/>
+
+  <dlink target="NSAMail" />
+  <dlink target="NSAMainframe" />
+  <dlink target="NSAWhitelist" />
+  <dlink target="NSAWebserver" />
+
+  <LogoCustomConnectDisplayDaemon logo="Sprites/nsabig.png" title="Sprites/nsatitle.png" overdrawLogo="true" buttonAlignment="right" />
+
+  
+  
+</Computer>

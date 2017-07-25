@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NSAWebsite" name="NSA Webserver" ip="172.230.214.86" type="empty" icon="server" security="2" allowsDefaultBootModule="true">
+
+  
+  <portsForCrack val="3" />
+  <ports>80, 443, 25</ports>
+  <trace time="-1" />
+  
+  <addWebServer name="www.nsa.gov"
+                url="Web/NSA/NSAWebsite.html" />
+				
+  <dlink target="NSANethub" />
+  <positionNear target="NSAMainframe" position="180" total="360" extraDistance="0.1"/>
+  
+</Computer>

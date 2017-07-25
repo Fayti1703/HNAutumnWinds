@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hackerwebsite" name="31337H4xx0r Forums" type="empty" security="4" ip="208.73.211.70">
+
+  <ports>80, 25, 443</ports>
+  <portsForCrack val="2" />
+  <trace time="75" />
+  
+<!--				
+	<messageBoard name="31337H4xx0r Forums">
+    <thread>HackerForums/MessageBoard/Threads/Guest.txt</thread>
+    <thread>HackerForums/MessageBoard/Threads/Purchases.txt</thread>
+  </messageBoard> -->
+  
+</Computer>

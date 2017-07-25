@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NSADrop" name="Equilization DropServer" security="6" type="3">
+
+  <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1234,ftp=99,web=9050,6881=6882</portRemap>
+
+  <uploadServerDaemon name="Equilization Drop" folder="Drop"
+                      needsAuth="false" color="38,201,155" hasReturnViewButton="false"/>
+
+  <admin type="fast" />
+
+</Computer>

@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="slashbot" name="Slash-Bot News Network" security="6" type="3">
+  <ports>80, 443</ports>
+  <portRemap>443=8080</portRemap>
+  <!-- iconPath="Sprites/Slashbot.png" -->
+  <variableMissionListingServer name="Slash-Bot News Network" iconPath="Logo.png" articleFolderPath="Docs/SlashbotArticles" color="120,200,2" assigner="false" public="true" title="Slash-Bot News Network" />
+</Computer>

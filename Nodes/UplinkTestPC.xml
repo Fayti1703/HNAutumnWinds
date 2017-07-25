@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="UplinkSecwit" name="Uplink Test PC" type="empty" ip="128.185.0.4" icon="server" security="1">
+
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <proxy time="-1" />
+  <trace time="300" />
+  <account username="admin" password="rosebud" />
+  
+  <encryptedFile path="home" name="Random File.dec" ip="128.185.0.4" header="Level 4 Encryption" extension=".zip" double="true" pass="introversion">
+	#BINARY#
+  </encryptedFile>
+  
+  <file path="home" name="Uplink test data">
+	#BINARY#
+  </file>
+  
+  <file path="bin" name="Sample Program.exe">
+	#BINARY#
+  </file>
+  
+    <LogoCustomConnectDisplayDaemon logo="Sprites/uplink.png" title="Sprites/uplinktitle.png" overdrawLogo="true" buttonAlignment="left" />
+  
+</Computer>

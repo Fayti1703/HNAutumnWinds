@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EquationHub" name="Equation Group" type="3" security="4">
+
+  
+  <portsForCrack val="4" />
+  <trace time="2.5" />
+
+  <account username="#PLAYERNAME#" password="TuXEDo5tapPer4COPyiNg" type="3" />
+
+  <!-- group name is purely decorative, no link to faction ID name necessary -->
+  <missionHubServer groupName="Equation" serviceName="Equation Group Hub" missionFolderPath="Missions/Equation" themeColor="100,100,100,100" lineColor="100,100,100" backgroundColor="10,10,10,160" />
+  
+  
+</Computer>

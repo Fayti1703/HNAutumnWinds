@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NKEntry" name="민주주의 인민 공화국 인트라넷 서버" type="empty">
+
+  
+  <portsForCrack val="1" />
+  <ports>80</ports>
+  <trace time="18" />
+  
+</Computer>

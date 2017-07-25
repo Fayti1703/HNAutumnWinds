@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NSAIRC" name="Jackal IRC" security="5" type="3">
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="90" />
+  <portsForCrack val="9" />
+  <ports>22, 21, 80, 443</ports>
+  
+
+  <account username="GUEST" password="hunter2" type="2" />
+  
+  <IRCDaemon themeColor="67,204,148" name="Jackal IRC" needsLogin="true">
+    <user name="Jackal" color="0,191,255"/>
+  </IRCDaemon>
+
+</Computer>

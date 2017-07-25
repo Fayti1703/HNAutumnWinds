@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NSAWhitelist" name="NSA_Whitelist_Authenticator" security="5" type="empty" icon="server">
+  
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="55" />
+  <portsForCrack val="2" />
+  <ports>22, 80, 25, 1433</ports>
+  <admin type="progress"/>
+
+  <dlink target="NSAMainframe" />
+  
+  <positionNear target="NSAMainframe" position="270" total="360" extraDistance="0.1"/>
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+   <file path="Whitelist" name="list.txt">
+98.124.245.24
+141.8.224.143
+141.88.107.140
+208.91.197.160
+209.68.11.125
+  </file>
+  
+</Computer>
