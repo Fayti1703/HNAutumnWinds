@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="devdisclaimer" activeCheck="false">
+<mission id="devdisclaimer" activeCheck="true">
   <goals>
   </goals>
   <nextMission>NONE</nextMission>
@@ -11,7 +11,7 @@
 	Currently, the only mission available at the Rev. Hacksquad is the NSA Mission. Currently, there is only a placeholder file in the mainframe that you have to delete.
 	So, yeah. Go take a look.
 	
-	Oh, by the way, hit the abort contract button on your way to the hub. I was too lazy to make this thing complete itself.
+	<!--Oh, by the way, hit the abort contract button on your way to the hub. I was too lazy to make this thing complete itself.-->
 	There's also a linked server containing every program in the game. Go take a look.
 	
 	--
