@@ -1,42 +1,35 @@
 <HacknetExtension>
 	<Name>Autumn Winds</Name>
 	<AllowSaves>true</AllowSaves>
-  
-  <StartingMission>Missions/Intro/IntroMission1.xml</StartingMission>
-	
-  <StartingActions>Actions/StartingActions.xml</StartingActions>
-	
-  <Description> --- Autumn Winds ---
+
+	<StartingMission>Missions/Intro/IntroMission1.xml</StartingMission>
+	<StartingActions>Actions/StartingActions.xml</StartingActions>	
+	<StartingTheme>HacknetMint</StartingTheme>
+
+	<Description> --- Autumn Winds ---
 Alpha 0.1</Description>
   
-  <Faction>Factions/ExampleFaction.xml</Faction>
-  <Faction>Factions/RVHS.xml</Faction>
-  
-  <StartsWithTutorial>False</StartsWithTutorial>
-  
-<!-- This is only temporary, as the command args and debug mode aren't really working on my end -->
-  <HasIntroStartup>false</HasIntroStartup>
-  
-  <StartingTheme>HacknetMint</StartingTheme>
-  
-  <IntroStartupSong>Irritations</IntroStartupSong>
+	<Faction>Factions/ExampleFaction.xml</Faction>
+	<Faction>Factions/RVHS.xml</Faction>  
 
-  <SequencerTargetID>advExamplePC</SequencerTargetID>
-  <SequencerSpinUpTime>10.5</SequencerSpinUpTime>
-  <SequencerFlagRequiredForStart>testFlag</SequencerFlagRequiredForStart>
-  <ActionsToRunOnSequencerStart>Actions/ThemeSwapActions.xml</ActionsToRunOnSequencerStart>
-  
-  <WorkshopDescription>This is the description of the extension that will appear in Steam Workshop and any other mod platforms this gets ported to. Max 8000 characters.
+	<StartsWithTutorial>False</StartsWithTutorial>  
+	<HasIntroStartup>false</HasIntroStartup>
+	<!-- This is only temporary, as the command args and debug mode aren't really working on my end -->
+	<!-- Debug mode doesn't skip Intro. -enabledebug and -enablefc for debug mode. See pull request message.-->
+	<IntroStartupSong>Irritations</IntroStartupSong>
+
+<!--	<SequencerTargetID>advExamplePC</SequencerTargetID>
+	<SequencerSpinUpTime>10.5</SequencerSpinUpTime>
+	<SequencerFlagRequiredForStart>testFlag</SequencerFlagRequiredForStart>
+	<ActionsToRunOnSequencerStart>Actions/ThemeSwapActions.xml</ActionsToRunOnSequencerStart>
+Better to let the sequencer not function at all than function brokely. Right?
+-->
+	<WorkshopDescription>This is the description of the extension that will appear in Steam Workshop and any other mod platforms this gets ported to. Max 8000 characters.
 You can use newlines in this as normal etc.</WorkshopDescription>
-
-  <WorkshopLanguage>English</WorkshopLanguage>
-
-  <WorkshopVisibility>2</WorkshopVisibility>
-	
-  <WorkshopTags>Extension</WorkshopTags>
-
-  <WorkshopPreviewImagePath>WorkshopLogo.png</WorkshopPreviewImagePath>
-
-  <WorkshopPublishID>NONE</WorkshopPublishID>
+	<WorkshopLanguage>English</WorkshopLanguage>
+	<WorkshopVisibility>2</WorkshopVisibility>
+	<WorkshopTags>Extension</WorkshopTags>
+	<WorkshopPreviewImagePath>WorkshopLogo.png</WorkshopPreviewImagePath>
+	<WorkshopPublishID>NONE</WorkshopPublishID>
   
 </HacknetExtension>
