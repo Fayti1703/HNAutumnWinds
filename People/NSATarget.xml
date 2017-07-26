@@ -1,16 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Person id="NSATarget" handle="Yousessung" firstName="Samuel" lastName="Ratliff" isMale="true" forceHasNeopals="true">
-  <!-- ID is not used yet, but may be used in the future for reference stuff. Handle is this person's account name for things like PointClicker and neopals.
-  forceHasNeopals set to try guarantees they will have a neopals account generated. Otherwise it's random.-->
-  
-  <!-- Any string works here, but it's designed to accept a city name -->
   <Birthplace name="Cartersville" />
-  
-    <!-- You can add as many degrees as you like here - these show up on the academic database-->
   <Degrees>
     <Degree uni="Georgia Institute of Technology" gpa="3.2">Bachelor of Software Engineering</Degree>
     <Degree uni="Georgia Institute of Technology" gpa="3.4">Doctorate of Health Science</Degree>
   </Degrees>
-  
   <Notes>I generated this guy at fakenamegenerator.com</Notes>
 </Person>

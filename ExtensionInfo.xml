@@ -9,7 +9,6 @@
 	<Description> --- Autumn Winds ---
 Alpha 0.1</Description>
   
-	<Faction>Factions/ExampleFaction.xml</Faction>
 	<Faction>Factions/RVHS.xml</Faction>  
 
 	<StartsWithTutorial>False</StartsWithTutorial>  

@@ -1,8 +1,6 @@
-<ConditionalActions>
-  
+<ConditionalActions>  
   <!-- this triggers immediately, as soon as this is finished loading! Actions will happen in the order they appear in this file.-->
   <Instantly>
     <LaunchHackScript Filepath="HackerScripts/CreditsHack.txt" SourceComp="EnTechComeback" TargetComp="playerComp"/>
   </Instantly>
-
 </ConditionalActions>
